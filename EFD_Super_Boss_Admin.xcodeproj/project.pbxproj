@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		BA4B59C32965E744004B30C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4B59C22965E744004B30C3 /* AppDelegate.swift */; };
-		BA4B59C52965E744004B30C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4B59C42965E744004B30C3 /* SceneDelegate.swift */; };
-		BA4B59C72965E744004B30C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4B59C62965E744004B30C3 /* ViewController.swift */; };
-		BA4B59CA2965E744004B30C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4B59C82965E744004B30C3 /* Main.storyboard */; };
 		BA4B59CC2965E746004B30C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4B59CB2965E746004B30C3 /* Assets.xcassets */; };
 		BA4B59CF2965E746004B30C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4B59CD2965E746004B30C3 /* LaunchScreen.storyboard */; };
 		BA4B59DA2965E746004B30C3 /* EFD_Super_Boss_AdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4B59D92965E746004B30C3 /* EFD_Super_Boss_AdminTests.swift */; };
 		BA4B59E42965E746004B30C3 /* EFD_Super_Boss_AdminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4B59E32965E746004B30C3 /* EFD_Super_Boss_AdminUITests.swift */; };
 		BA4B59E62965E746004B30C3 /* EFD_Super_Boss_AdminUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4B59E52965E746004B30C3 /* EFD_Super_Boss_AdminUITestsLaunchTests.swift */; };
+		BA4B59F42965E76F004B30C3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4B59F22965E76F004B30C3 /* HomeViewController.swift */; };
+		BA4B59F52965E76F004B30C3 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4B59F32965E76F004B30C3 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +37,6 @@
 /* Begin PBXFileReference section */
 		BA4B59BF2965E744004B30C3 /* EFD_Super_Boss_Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EFD_Super_Boss_Admin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4B59C22965E744004B30C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA4B59C42965E744004B30C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA4B59C62965E744004B30C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BA4B59C92965E744004B30C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA4B59CB2965E746004B30C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA4B59CE2965E746004B30C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA4B59D02965E746004B30C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +45,8 @@
 		BA4B59DF2965E746004B30C3 /* EFD_Super_Boss_AdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EFD_Super_Boss_AdminUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4B59E32965E746004B30C3 /* EFD_Super_Boss_AdminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFD_Super_Boss_AdminUITests.swift; sourceTree = "<group>"; };
 		BA4B59E52965E746004B30C3 /* EFD_Super_Boss_AdminUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFD_Super_Boss_AdminUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA4B59F22965E76F004B30C3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BA4B59F32965E76F004B30C3 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				BA4B59C22965E744004B30C3 /* AppDelegate.swift */,
-				BA4B59C42965E744004B30C3 /* SceneDelegate.swift */,
-				BA4B59C62965E744004B30C3 /* ViewController.swift */,
-				BA4B59C82965E744004B30C3 /* Main.storyboard */,
 				BA4B59CB2965E746004B30C3 /* Assets.xcassets */,
 				BA4B59CD2965E746004B30C3 /* LaunchScreen.storyboard */,
 				BA4B59D02965E746004B30C3 /* Info.plist */,
+				BA4B59F22965E76F004B30C3 /* HomeViewController.swift */,
+				BA4B59F32965E76F004B30C3 /* HomeViewController.xib */,
 			);
 			path = EFD_Super_Boss_Admin;
 			sourceTree = "<group>";
@@ -233,7 +230,7 @@
 			files = (
 				BA4B59CF2965E746004B30C3 /* LaunchScreen.storyboard in Resources */,
 				BA4B59CC2965E746004B30C3 /* Assets.xcassets in Resources */,
-				BA4B59CA2965E744004B30C3 /* Main.storyboard in Resources */,
+				BA4B59F52965E76F004B30C3 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +255,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA4B59C72965E744004B30C3 /* ViewController.swift in Sources */,
 				BA4B59C32965E744004B30C3 /* AppDelegate.swift in Sources */,
-				BA4B59C52965E744004B30C3 /* SceneDelegate.swift in Sources */,
+				BA4B59F42965E76F004B30C3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BA4B59C82965E744004B30C3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA4B59C92965E744004B30C3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BA4B59CD2965E746004B30C3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +429,6 @@
 				INFOPLIST_FILE = EFD_Super_Boss_Admin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +455,6 @@
 				INFOPLIST_FILE = EFD_Super_Boss_Admin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
